@@ -1,0 +1,21 @@
+{
+  "data_dir": "/content/UNSW-NB15/",
+  "min_window": 100,
+  "max_window": 800,
+  "n_train": 200,
+  "n_val": 50,
+  "n_test": 50,
+  "max_ip_edges": 8,
+  "temporal_k": 5,
+  "edge_dim": 7,
+  "hidden_dim": 128,
+  "num_layers": 3,
+  "dropout": 0.3,
+  "batch_size": 16,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "epochs": 100,
+  "patience": 15,
+  "stratify_train": true,
+  "stratify_eval": true
+}
